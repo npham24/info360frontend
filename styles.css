@@ -77,6 +77,26 @@ h1 {
   font-size: 350%;
 }
 
+/* LOCATION PAGE */
+
+/* Title text on the location page */
+#location_title {
+  font-size: 150%;
+}
+
+/* Image on location page */
+#location_image {
+  width: 300px;
+  height: 200px;
+}
+
+/* Location description on location page */
+#location_desc {
+  font-size: 100%;
+}
+
+/* END LOCATION PAGE */
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
