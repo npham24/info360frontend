@@ -3,11 +3,12 @@
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .search {
   width: 100%;
-  position: relative;
+  position: top;
   display: flex;
 }
 
@@ -46,3 +47,50 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-size: 400%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: center;
+  padding: 10px;
+  border: none;
+  margin: auto;
+  font-size: 400%;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
