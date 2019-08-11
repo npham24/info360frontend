@@ -111,16 +111,20 @@ h1 {
   align: left;
 }
 
+/* Button leading to more information on a practice */
+#practice {
+  width: 450px;
+  height: 450px;
+}
+
 /* Title of a suggested practice on location page */
 #practice_title {
   font-size: 175%;
-  align: left;
 }
 
 /* Duration of a suggested practice on location page */
 #duration {
   font-size: 100%;
-  align: left;
   color: #a8a8a8;
 }
 
@@ -133,15 +137,26 @@ h1 {
 
 /* END LOCATION PAGE */
 
+/* Button */
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
   transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+  background: #eee;
 }
 
 /* Add some padding inside the card container */
