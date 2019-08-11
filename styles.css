@@ -3,7 +3,6 @@
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
 }
 
 .search {
@@ -81,18 +80,48 @@ h1 {
 
 /* Title text on the location page */
 #location_title {
-  font-size: 150%;
+  font-size: 400%;
+  font-weight: bold;
+  align: left;
 }
 
 /* Image on location page */
 #location_image {
-  width: 300px;
-  height: 200px;
+  width: 900px;
+  height: 600px;
+  align: left;
 }
 
 /* Location description on location page */
 #location_desc {
+  font-size: 110%;
+  align: left;
+}
+
+/* List of themes on location page */
+#theme_list {
+  font-size: 175%;
+  align: left;
+  color: #a8a8a8;
+}
+
+/* Title for suggested practices on location page */
+#suggested_practices {
+  font-size: 300%;
+  align: left;
+}
+
+/* Title of a suggested practice on location page */
+#practice_title {
+  font-size: 175%;
+  align: left;
+}
+
+/* Duration of a suggested practice on location page */
+#duration {
   font-size: 100%;
+  align: left;
+  color: #a8a8a8;
 }
 
 /* END LOCATION PAGE */
