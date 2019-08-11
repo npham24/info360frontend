@@ -124,6 +124,13 @@ h1 {
   color: #a8a8a8;
 }
 
+/* Back button to locations */
+#back_to_locations {
+  font-size: 200%;
+  align: left;
+  color: #277edb
+}
+
 /* END LOCATION PAGE */
 
 .card {
