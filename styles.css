@@ -16,7 +16,6 @@ h3 {
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
 }
 
 .search {
@@ -90,15 +89,87 @@ h1 {
   font-size: 350%;
 }
 
+/* LOCATION PAGE */
+
+/* Title text on the location page */
+#location_title {
+  font-size: 400%;
+  font-weight: bold;
+  align: left;
+}
+
+/* Image on location page */
+#location_image {
+  width: 900px;
+  height: 600px;
+  align: left;
+}
+
+/* Location description on location page */
+#location_desc {
+  font-size: 110%;
+  align: left;
+}
+
+/* List of themes on location page */
+#theme_list {
+  font-size: 175%;
+  align: left;
+  color: #a8a8a8;
+}
+
+/* Title for suggested practices on location page */
+#suggested_practices {
+  font-size: 300%;
+  align: left;
+}
+
+/* Button leading to more information on a practice */
+#practice {
+  width: 450px;
+  height: 450px;
+}
+
+/* Title of a suggested practice on location page */
+#practice_title {
+  font-size: 175%;
+}
+
+/* Duration of a suggested practice on location page */
+#duration {
+  font-size: 100%;
+  color: #a8a8a8;
+}
+
+/* Back button to locations */
+#back_to_locations {
+  font-size: 200%;
+  align: left;
+  color: #277edb
+}
+
+/* END LOCATION PAGE */
+
+/* Button */
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
   transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+  background: #eee;
 }
 
 /* Add some padding inside the card container */
