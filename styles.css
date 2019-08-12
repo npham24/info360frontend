@@ -202,31 +202,3 @@ h1 {
 .scroll-card {
   background-color: blue;
 }
-
-/* Mobile only css */
-.loc-image {
-  object-fit:cover;
-  max-width: 95%;
-  height: 700px;
-  max-height: 50%;
-  box-shadow: 10px 10px 5px silver;
-}
-
-/* Desktop only css */
-@media (min-width: 1000px) {
-  .loc-image {
-    max-width: 90%;
-  }
-}
-
-
-.loc-text {
-  text-align: left;
-  margin: 25px 50px;
-  font-size: 2vw;
-}
-
-.loc-description {
-  margin: 45px 0px;
-}
-
