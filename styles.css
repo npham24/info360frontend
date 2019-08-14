@@ -96,7 +96,7 @@ h1 {
   text-align: left;
   color: black; 
   font-size: 10vw;
-  padding-left: 7vw;
+  padding-left: 5vw;
   padding-top: 3vw;
   padding-bottom: 1vw;
 }
@@ -115,6 +115,7 @@ h1 {
 #location_desc {
   font-size: 4vw;
   text-align: left;
+  padding-left: 5vw;
 }
 
 /* Title for suggested practices on location page */
@@ -125,9 +126,15 @@ h1 {
 
 /* Button leading to directions */
 #directions {
-  width: 450px;
-  height: 100px;
-  color: #0066ff;
+  width: 30%;
+  height: 15%;
+  font-size: 4vw;
+  background-color: #0066ff;
+  color: #f2f2f2;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Button leading to more information on a practice */
