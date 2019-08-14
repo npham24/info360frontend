@@ -5,17 +5,16 @@
 }
 
 h1 {
-    color: #420DA8;
-    font-size: 20vw;
+    color: black;
+    font-size: 200vw;
+    padding-left: 5vw;
+    padding-top: 1vw;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-h3 {
-  margin: 15px 0px;
-}
 body{
   background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", "Segoe UI";
 }
 
 .search {
@@ -93,35 +92,42 @@ h1 {
 
 /* Title text on the location page */
 #location_title {
-  font-size: 400%;
   font-weight: bold;
-  align: left;
+  text-align: left;
+  color: black; 
+  font-size: 10vw;
+  padding-left: 7vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
 }
 
 /* Image on location page */
 #location_image {
-  width: 900px;
-  height: 600px;
-  align: left;
+  /* max-width: 100%;
+  height: 600px; */
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  object-fit: cover;
 }
 
 /* Location description on location page */
 #location_desc {
-  font-size: 110%;
-  align: left;
-}
-
-/* List of themes on location page */
-#theme_list {
-  font-size: 175%;
-  align: left;
-  color: #a8a8a8;
+  font-size: 4vw;
+  text-align: left;
 }
 
 /* Title for suggested practices on location page */
 #suggested_practices {
   font-size: 300%;
-  align: left;
+  text-align: left;
+}
+
+/* Button leading to directions */
+#directions {
+  width: 450px;
+  height: 100px;
+  color: #0066ff;
 }
 
 /* Button leading to more information on a practice */
@@ -144,7 +150,7 @@ h1 {
 /* Back button to locations */
 #back_to_locations {
   font-size: 200%;
-  align: left;
+  text-align: left;
   color: #277edb
 }
 

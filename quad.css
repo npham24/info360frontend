@@ -14,13 +14,13 @@ body{
   vertical-align: middle;
 }
 
+
 /* Mobile only css */
 .loc-image {
     object-fit:cover;
     max-width: 95%;
     height: 700px;
     max-height: 50%;
-    box-shadow: 10px 10px 5px silver;
   }
   
 /* Desktop only css */
